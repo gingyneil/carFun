@@ -200,11 +200,12 @@ namespace ConsoleAppPlayTime
                     car6.year = inputYear;
                     car6.inputColor = inputColor;
                     car6.inputTransmission = inputTransmission;
-                
-                    carList[i] = car6;
+
+                    return car6;
                 }
 
             }
+            return car1;
            
             
         }
