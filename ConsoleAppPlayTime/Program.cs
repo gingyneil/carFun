@@ -77,15 +77,10 @@ namespace ConsoleAppPlayTime
         private int inputYear;
         private string inputColor;
         private string inputTransmission;
-        Car[] carList = new Car[6];
+        private Car car1;
+        private Car car2;
 
-        Car car1 = new Car();
-        Car car2 = new Car();
-        Car car3 = new Car();
-        Car car4 = new Car();
-        Car car5 = new Car();
-        Car car6 = new Car();
-
+        //
 
 
         public Car()
@@ -123,7 +118,7 @@ namespace ConsoleAppPlayTime
 
         }
 
-        public Car makeYourCar()
+        public void makeYourCar()
         {
 
            
@@ -151,61 +146,61 @@ namespace ConsoleAppPlayTime
 
                 if (i == 0)
                 {
-                    car1.model = inputModel;
-                    car1.year = inputYear;
-                    car1.inputColor = inputColor;
-                    car1.inputTransmission = inputTransmission;
+                    model = inputModel;
+                    year = inputYear;
+                    color = inputColor;
+                    transmission = inputTransmission;
 
-                    return car1;
+                   
                 }
                 else if (i == 1)
                 {
-                    car2.model = inputModel;
-                    car2.year = inputYear;
-                    car2.inputColor = inputColor;
-                    car2.inputTransmission = inputTransmission;
+                    model = inputModel;
+                    year = inputYear;
+                  color = inputColor;
+                    transmission = inputTransmission;
 
-                    return car2;
+              
                 }
                 else if (i == 2)
                 {
-                    car3.model = inputModel;
-                    car3.year = inputYear;
-                    car3.inputColor = inputColor;
-                    car3.inputTransmission = inputTransmission;
+                    model = inputModel;
+                    year = inputYear;
+                    color = inputColor;
+                    transmission = inputTransmission;
 
-                    return car3;
+             
                 }
                 else if (i == 3)
                 {
-                    car4.model = inputModel;
-                    car4.year = inputYear;
-                    car4.inputColor = inputColor;
-                    car4.inputTransmission = inputTransmission;
+                   model = inputModel;
+                    year = inputYear;
+                  color = inputColor;
+                   transmission = inputTransmission;
 
-                    return car4;
+                
                 }
                 else if (i == 4)
                 {
-                    car5.model = inputModel;
-                    car5.year = inputYear;
-                    car5.inputColor = inputColor;
-                    car5.inputTransmission = inputTransmission;
+                   model = inputModel;
+                    year = inputYear;
+                  color = inputColor;
+                   transmission = inputTransmission;
 
-                    return car5;
+                    
                 }
                 else if (i == 5)
                 {
-                    car6.model = inputModel;
-                    car6.year = inputYear;
-                    car6.inputColor = inputColor;
-                    car6.inputTransmission = inputTransmission;
+                    model = inputModel;
+                    year = inputYear;
+                    color = inputColor;
+                  transmission = inputTransmission;
 
-                    return car6;
+                    
                 }
 
             }
-            return car1;
+           
            
             
         }
